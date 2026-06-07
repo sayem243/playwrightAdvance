@@ -26,6 +26,7 @@ test('Assertion test', async ({ page }) => {
     //6) expect(locator).toHaveAttribute() - to verify if an element has a specific attribute or not.
     const regButton= page.locator('#register-button');
     await expect(regButton).toHaveAttribute('type','submit');
+//7) expect(locator).toHaveText() - to verify if an element has specific text or not.
 
 
 });
